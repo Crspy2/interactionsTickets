@@ -122,3 +122,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# IntelliJ
+.idea/
+
+# Custom
+default_db_schemas
+test.py
