@@ -1,7 +1,6 @@
 from interactions import listen, Client, Extension
 
 
-
 class OnReady(Extension):
     def __init__(self, client: Client):
         self.bot: Client = client

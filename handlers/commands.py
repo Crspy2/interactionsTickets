@@ -21,3 +21,6 @@ def load(client: Client):
             client.load_extension(cog)
         except Exception as err:
             print(f"Could not load a cog: {cog}\n{err}")
+            return
+
+    print("Loaded all commands")

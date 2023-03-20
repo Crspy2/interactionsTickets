@@ -1,8 +1,8 @@
 import os
-
 from interactions import Client, Intents
-from handlers import commands, events
 from dotenv import load_dotenv
+
+from handlers import events, commands
 
 load_dotenv()
 
